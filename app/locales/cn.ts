@@ -76,7 +76,7 @@ const cn = {
     Send: "发送",
     Config: {
       Reset: "清除记忆",
-      SaveAs: "存为面具",
+      SaveAs: "存为助手",
     },
     IsContext: "预设提示词",
   },
@@ -391,11 +391,11 @@ const cn = {
     Sysmessage: "你是一个助手",
   },
   Mask: {
-    Name: "面具",
+    Name: "助手",
     Page: {
-      Title: "预设角色面具",
-      SubTitle: (count: number) => `${count} 个预设角色定义`,
-      Search: "搜索角色面具",
+      Title: "预设助手",
+      SubTitle: (count: number) => `${count} 个预设助手定义`,
+      Search: "搜索助手",
       Create: "新建",
     },
     Item: {
@@ -436,8 +436,8 @@ const cn = {
     Skip: "直接开始",
     NotShow: "不再展示",
     ConfirmNoShow: "确认禁用？禁用后可以随时在设置中重新启用。",
-    Title: "挑选一个面具",
-    SubTitle: "现在开始，与面具背后的灵魂思维碰撞",
+    Title: "挑选一个助手",
+    SubTitle: "现在开始，与您的助手开始交流",
     More: "查看全部",
   },
 
