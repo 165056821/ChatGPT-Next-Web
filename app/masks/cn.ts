@@ -33,7 +33,7 @@ export const CN_MASKS: BuiltinMask[] = [
   //     },
   //   ],
   //   modelConfig: {
-  //     model: "gpt-3.5-turbo",
+  //     model: "gpt-4-turbo-preview",
   //     temperature: 1,
   //     max_tokens: 2000,
   //     presence_penalty: 0,
@@ -122,7 +122,7 @@ export const CN_MASKS: BuiltinMask[] = [
   //     },
   //   ],
   //   modelConfig: {
-  //     model: "gpt-3.5-turbo",
+  //     model: "gpt-4-turbo-preview",
   //     temperature: 1,
   //     max_tokens: 2000,
   //     presence_penalty: 0,
@@ -148,7 +148,7 @@ export const CN_MASKS: BuiltinMask[] = [
   //     },
   //   ],
   //   modelConfig: {
-  //     model: "gpt-3.5-turbo",
+  //     model: "gpt-4-turbo-preview",
   //     temperature: 1,
   //     max_tokens: 2000,
   //     presence_penalty: 0,
@@ -174,7 +174,7 @@ export const CN_MASKS: BuiltinMask[] = [
   //     },
   //   ],
   //   modelConfig: {
-  //     model: "gpt-3.5-turbo",
+  //     model: "gpt-4-turbo-preview",
   //     temperature: 1,
   //     max_tokens: 2000,
   //     presence_penalty: 0,
@@ -187,32 +187,32 @@ export const CN_MASKS: BuiltinMask[] = [
   //   builtin: true,
   //   createdAt: 1688899480513,
   // },
-  // {
-  //   avatar: "1f469-200d-1f4bc",
-  //   name: "职业顾问",
-  //   context: [
-  //     {
-  //       id: "cons-0",
-  //       role: "user",
-  //       content:
-  //         "我想让你担任职业顾问。我将为您提供一个在职业生涯中寻求指导的人，您的任务是帮助他们根据自己的技能、兴趣和经验确定最适合的职业。您还应该对可用的各种选项进行研究，解释不同行业的就业市场趋势，并就哪些资格对追求特定领域有益提出建议。我的第一个请求是",
-  //       date: "",
-  //     },
-  //   ],
-  //   modelConfig: {
-  //     model: "gpt-3.5-turbo",
-  //     temperature: 1,
-  //     max_tokens: 2000,
-  //     presence_penalty: 0,
-  //     frequency_penalty: 0,
-  //     sendMemory: true,
-  //     historyMessageCount: 4,
-  //     compressMessageLengthThreshold: 1000,
-  //   },
-  //   lang: "cn",
-  //   builtin: true,
-  //   createdAt: 1688899480514,
-  // },
+  {
+    avatar: "1f469-200d-1f4bc",
+    name: "健康顾问",
+    context: [
+      {
+        id: "cons-0",
+        role: "user",
+        content:
+          "我想让你担任健康顾问。针对我的健康问题给出健康建议。我的第一个请求是",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-4-turbo-preview",
+      temperature: 1,
+      max_tokens: 2000,
+      presence_penalty: 0,
+      frequency_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+    createdAt: 1688899480514,
+  },
   // {
   //   avatar: "1f9d1-200d-1f3eb",
   //   name: "英专写手",
@@ -226,7 +226,7 @@ export const CN_MASKS: BuiltinMask[] = [
   //     },
   //   ],
   //   modelConfig: {
-  //     model: "gpt-3.5-turbo",
+  //     model: "gpt-4-turbo-preview",
   //     temperature: 1,
   //     max_tokens: 2000,
   //     presence_penalty: 0,
@@ -252,7 +252,7 @@ export const CN_MASKS: BuiltinMask[] = [
   //     },
   //   ],
   //   modelConfig: {
-  //     model: "gpt-3.5-turbo",
+  //     model: "gpt-4-turbo-preview",
   //     temperature: 1,
   //     max_tokens: 2000,
   //     presence_penalty: 0,
@@ -278,7 +278,7 @@ export const CN_MASKS: BuiltinMask[] = [
   //     },
   //   ],
   //   modelConfig: {
-  //     model: "gpt-3.5-turbo",
+  //     model: "gpt-4-turbo-preview",
   //     temperature: 1,
   //     max_tokens: 2000,
   //     presence_penalty: 0,
@@ -310,7 +310,7 @@ export const CN_MASKS: BuiltinMask[] = [
   //     },
   //   ],
   //   modelConfig: {
-  //     model: "gpt-3.5-turbo",
+  //     model: "gpt-4-turbo-preview",
   //     temperature: 0.5,
   //     max_tokens: 2000,
   //     presence_penalty: 0,
@@ -336,7 +336,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo",
+      model: "gpt-4-turbo-preview",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -369,7 +369,7 @@ export const CN_MASKS: BuiltinMask[] = [
   //     },
   //   ],
   //   modelConfig: {
-  //     model: "gpt-3.5-turbo",
+  //     model: "gpt-4-turbo-preview",
   //     temperature: 1,
   //     max_tokens: 2000,
   //     presence_penalty: 0,
@@ -384,7 +384,7 @@ export const CN_MASKS: BuiltinMask[] = [
   // },
   {
     avatar: "270d-fe0f",
-    name: "互联网写手",
+    name: "文案写手",
     context: [
       {
         id: "net-0",
@@ -402,7 +402,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo",
+      model: "gpt-4-turbo-preview",
       temperature: 1,
       max_tokens: 2000,
       presence_penalty: 0,
@@ -460,7 +460,7 @@ export const CN_MASKS: BuiltinMask[] = [
   //     },
   //   ],
   //   modelConfig: {
-  //     model: "gpt-3.5-turbo",
+  //     model: "gpt-4-turbo-preview",
   //     temperature: 1,
   //     max_tokens: 2000,
   //     presence_penalty: 0,
