@@ -11,7 +11,7 @@ const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
   title: "AI健康助手",
-  description: "Your personal ChatGPT Chat Bot.",
+  description: "您的个人健康助理",
   viewport: {
     width: "device-width",
     initialScale: 1,
